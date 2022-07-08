@@ -449,7 +449,7 @@ def GBFS_FindAndPrintRoute(filename):
 
 def main():
     filename = input()
-    filename ='../Kiểm thử/'+filename
+    filename ='../Test/'+filename
     BFS_FindAndPrintRoute(filename)
     DFS_FindAndPrintRoute(filename)
     Astar_FindAndPrintRoute(filename)
