@@ -16,7 +16,7 @@ The output maze:
   - ![image](https://user-images.githubusercontent.com/57101343/177959118-d2d813a4-c949-4ebd-b4fa-3bb44a434829.png): movement directions of the agent
   - ![image](https://user-images.githubusercontent.com/57101343/177959233-e8530024-9e1b-4290-87d6-79a12c897a58.png): a point that the agent has passed but do not belong to the solution
 Example:
-![image](https://user-images.githubusercontent.com/57101343/177967416-e6e56418-2cc8-411f-b230-7d4eaef9cb12.png)
+![image](https://user-images.githubusercontent.com/57101343/177967618-2561b291-e652-45f3-af47-6e8425775805.png)
 
 
 
