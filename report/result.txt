@@ -1,0 +1,106 @@
+input_1.txt
+(-A OR B) hợp giải với (A) => B
+(-A OR B) hợp giải với (-B) => -A
+(A OR -B OR C) hợp giải với (A OR -C) => A OR -B
+3
+(A OR -B OR C) hợp giải với (B) => A OR C
+(A OR -B OR C) hợp giải với (-A) => -B OR C
+(A) hợp giải với (-A) => {}
+3
+
+input_2.txt
+(-A OR B OR C) hợp giải với (-B OR D OR F) => -A OR C OR D OR F
+(-A OR B OR C) hợp giải với (-C OR F) => -A OR B OR F
+(-A OR B OR C) hợp giải với (A) => B OR C
+(-B OR D OR F) hợp giải với (-A OR -D OR F) => -A OR -B OR F
+(-B OR D OR F) hợp giải với (-F) => -B OR D
+(-A OR -D OR F) hợp giải với (A) => -D OR F
+(-A OR -D OR F) hợp giải với (-F) => -A OR -D
+(-C OR F) hợp giải với (-F) => -C
+8
+(-A OR B OR C) hợp giải với (-A OR -B OR F) => -A OR C OR F
+(-A OR B OR C) hợp giải với (-B OR D) => -A OR C OR D
+(-A OR B OR C) hợp giải với (-C) => -A OR B
+(-B OR D OR F) hợp giải với (-A OR B OR F) => -A OR D OR F
+(-B OR D OR F) hợp giải với (B OR C) => C OR D OR F
+(-B OR D OR F) hợp giải với (-D OR F) => -B OR F
+(-C OR F) hợp giải với (B OR C) => B OR F
+(A) hợp giải với (-A OR -D) => -D
+(-F) hợp giải với (-A OR -B OR F) => -A OR -B
+(-A OR B OR F) hợp giải với (-A OR -B OR F) => -A OR F
+(B OR C) hợp giải với (-B OR D) => C OR D
+(B OR C) hợp giải với (-C) => B
+12
+(-A OR B OR C) hợp giải với (-A OR -B) => -A OR C
+(-B OR D OR F) hợp giải với (B OR F) => D OR F
+(A) hợp giải với (-A OR C OR F) => C OR F
+(A) hợp giải với (-A OR -B) => -B
+(A) hợp giải với (-A OR F) => F
+(-F) hợp giải với (-A OR D OR F) => -A OR D
+(-F) hợp giải với (-A OR F) => -A
+(-B OR D) hợp giải với (B) => D
+(-D) hợp giải với (C OR D) => C
+9
+(A) hợp giải với (-A) => {}
+1
+
+input_3.txt
+(A OR B) hợp giải với (-A OR -D) => B OR -D
+(A OR B) hợp giải với (-B OR D) => A OR D
+(A OR B) hợp giải với (-B OR -C) => A OR -C
+(-A OR -D) hợp giải với (C OR D) => -A OR C
+(-A OR -D) hợp giải với (-B OR D) => -A OR -B
+(C OR D) hợp giải với (-D) => C
+(-B OR D) hợp giải với (-D) => -B
+7
+(A OR B) hợp giải với (-A OR C) => B OR C
+(A OR B) hợp giải với (-B) => A
+(-A OR -D) hợp giải với (A OR -C) => -C OR -D
+3
+0
+
+input_4.txt
+(C OR E) hợp giải với (-A OR -B OR -C) => -A OR -B OR E
+(C OR E) hợp giải với (B OR -C) => B OR E
+(C OR F) hợp giải với (-A OR -B OR -C) => -A OR -B OR F
+(C OR F) hợp giải với (B OR -C) => B OR F
+(-A OR -B OR -C) hợp giải với (B OR -C) => -A OR -C
+(-A OR -B OR -C) hợp giải với (A) => -B OR -C
+6
+(C OR E) hợp giải với (-A OR -C) => -A OR E
+(C OR E) hợp giải với (-B OR -C) => -B OR E
+(C OR F) hợp giải với (-A OR -C) => -A OR F
+(C OR F) hợp giải với (-B OR -C) => -B OR F
+(-A OR -B OR -C) hợp giải với (B OR E) => -A OR -C OR E
+(-A OR -B OR -C) hợp giải với (B OR F) => -A OR -C OR F
+(B OR -C) hợp giải với (-B OR -C) => -C
+(-A OR -B OR E) hợp giải với (B OR F) => -A OR E OR F
+(B OR E) hợp giải với (-B OR -C) => -C OR E
+(B OR F) hợp giải với (-B OR -C) => -C OR F
+10
+(C OR E) hợp giải với (-C) => E
+(C OR E) hợp giải với (-C OR F) => E OR F
+2
+0
+
+input_5.txt
+(-A OR -B) hợp giải với (B OR -C) => -A OR -C
+(-A OR -B) hợp giải với (A OR -B OR C) => -B OR C
+(-A OR -B) hợp giải với (B OR E) => -A OR E
+(A OR -B OR C) hợp giải với (B OR E) => A OR C OR E
+(B OR E) hợp giải với (-E) => B
+5
+(-A OR -B) hợp giải với (A OR C OR E) => -B OR C OR E
+(-A OR -B) hợp giải với (B) => -A
+(B OR -C) hợp giải với (A OR C OR E) => A OR B OR E
+(A OR -B OR C) hợp giải với (B) => A OR C
+(B OR E) hợp giải với (-B OR C) => C OR E
+(-B OR C) hợp giải với (B) => C
+6
+(B OR -C) hợp giải với (A OR C) => A OR B
+(-A OR -C) hợp giải với (-B OR C OR E) => -A OR -B OR E
+(-A OR -C) hợp giải với (A OR B OR E) => B OR -C OR E
+3
+(-A OR -B) hợp giải với (B OR -C OR E) => -A OR -C OR E
+1
+0
