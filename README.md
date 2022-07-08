@@ -1,2 +1,2 @@
 # Algorithms
-Implementing algorithm 
+Implementing algorithms in Machine Learning, Data Mining
