@@ -1,6 +1,7 @@
-# Finding the shortest path to exit the maze by implementing algorithms: A* search, Greedy Best First Search, Breadth First Search, Depth First Search
+# Finding the shortest path to exit the maze 
 
-Introduction: 
+Introduction: the program to find the shortest path to exit the input maze 
+- Algorithms: A* search, Greedy Best First Search, Breadth First Search, Depth First Search
 - Run the source code file and enter the name of the input file (saved in Test directory)
 - After running, the program prints the results of every algorithms.
 
